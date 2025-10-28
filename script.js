@@ -95,3 +95,15 @@ var loveListener = createButtonListener(true);
 
 nope.addEventListener('click', nopeListener);
 love.addEventListener('click', loveListener);
+
+// Инициализация виджета neuroexpert
+const settings = {
+  projectId: 'e766d555b40611f0bc85925e29b06d3b/chats/e766d555b40611f0bc85925e29b06d3b',
+  hasOutsideClick: true,
+  isIframe: false,
+  isInternal: false,
+  parentId: 'neuroexpert-container', // Опционально, если нужен контейнер
+  zIndex: 1000
+};
+
+window.initNeuroexpert(settings);
