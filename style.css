@@ -80,7 +80,7 @@ body {
   cursor: -webkit-grab;
   cursor: -moz-grab;
   cursor: grab;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(128, 128, 128, 0.3);
 }
 
 .moving.tinder--card {
@@ -127,7 +127,7 @@ body {
   background: #FFFFFF;
   display: inline-block;
   margin: 0 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(128, 128, 128, 0.15);
   transition: all 0.2s ease;
 }
 
